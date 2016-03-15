@@ -17,7 +17,8 @@ OR
 composer require cyberdummy/server-spec
 ```
 
-# Local System Usage
+# Usage
+## Local System
 ```php
 use Cyberdummy\ServerSpec\Spec;
 use Cyberdummy\ServerSpec\LocalRunner;
@@ -26,7 +27,7 @@ $spec = new Spec(new LocalRunner());
 $spec->ram();
 ```
 
-# Via SSH System Usage
+## Via SSH System
 ```php
 use Cyberdummy\ServerSpec\Spec;
 use Cyberdummy\ServerSpec\SshRunner;
