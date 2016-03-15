@@ -1,0 +1,21 @@
+{
+    "name": "cyberdummy/server-spec",
+    "description": "Gather a linux servers specs",
+    "require-dev": {
+        "phpunit/phpunit": "^5.2",
+        "mockery/mockery": "^0.9.4"
+    },
+    "authors": [
+        {
+            "name": "Tom Westcott",
+            "email": "tom.westcott@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/process": "^3.0",
+        "phpseclib/phpseclib": "^2.0"
+    },
+    "autoload": {
+        "psr-4": { "Cyberdummy\\ServerSpec\\": "src/" }
+    }
+}
