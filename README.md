@@ -27,7 +27,9 @@ $spec = new Spec(new LocalRunner());
 $spec->ram();
 ```
 
-## Via SSH System
+## Via SSH
+The SSH runner takes an instance of phpseclib\Net\SSH2.
+
 ```php
 use Cyberdummy\ServerSpec\Spec;
 use Cyberdummy\ServerSpec\SshRunner;
