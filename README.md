@@ -48,5 +48,7 @@ $spec->ram();
 | ram()           | The ram in GB.           |
 | cpuClock()      | The CPU clock speed.     |
 | cpuCores()      | The number of CPU cores. |
-| os()            | The OS description.      |
+| distro()        | The linux distribution.  |
+| distroVersion() | Distro Version.          |
 | kernelVersion() | The linux kernel version |
+| df()            | Filesystem disk space    |
