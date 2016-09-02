@@ -70,7 +70,6 @@ class Spec
 
                 if (isset($split[2])) {
                     $version = $split[2];
-                    break;
                 }
             }
         }
